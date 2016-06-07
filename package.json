@@ -1,0 +1,29 @@
+{
+  "name": "moduleManager",
+  "version": "1.0.0",
+  "description": " private webfront module manage service&client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo test",
+	"run": "node index.js"
+  },
+  "keywords": [
+	"webfront",
+    "module",
+    "service"
+  ],
+  "engines": {
+    "node": ">=6.0"
+  },
+  "author": "yuanfeng",
+  "license": "BSD",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "log4js": "^0.6.36",
+    "mongodb": "^2.1.19",
+    "request": "^2.72.0",
+    "svn-interface": "^0.5.0",
+    "through2": "^2.0.1"
+  }
+}
